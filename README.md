@@ -12,7 +12,7 @@ Proyecto de inteligencia artificial mediante GOAP para la asignatura Inteligenci
 ### Entidades
 
 * Entidad Coche (5 acciones): Sus objetivos son volver a casa después de trabajar, tener el depósito lleno y ser libres en caso de que cometan un crimen. Pululan por la ciudad entre sus hogares y su lugar de trabajo. :
-** GoToWork:.
+  * GoToWork:.
 ** ReturnHome:.
 ** WaitForRemolque(lo se, debería ser ReturnForTow o algo):.
 ** GoToGasStation:.
