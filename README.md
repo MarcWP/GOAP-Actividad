@@ -26,6 +26,7 @@ Proyecto de inteligencia artificial mediante GOAP para la asignatura Inteligenci
 
 ### Modificaciones a la base GOAP
 * Agregada condición follow. Si es verdadera, las entidades actualizan la posición objetivo en cada frame hasta llegar a esta.
+* Agregado método para abortar una acción previo a completarla.
 * Abortar las acciones que se están ejecutando en ese momento y cesar el movimiento si el coche se queda sin gasolina.
 * Abortar las acciones que se están ejecutando en ese momento y aumentar la velocidad si el coche pierde la paciencia.
 
