@@ -104,7 +104,6 @@ public class Coche : GAgent
 
     void IncreaseGas(float multiplier)
     {
-        Debug.Log("QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA");
         _maxGas *= multiplier;
     }
     

@@ -208,6 +208,7 @@ MonoBehaviour:
     value: 0
   agent: {fileID: 0}
   running: 0
+  _moneyDelta: -500
 --- !u!114 &1914342989928548853
 MonoBehaviour:
   m_ObjectHideFlags: 0
