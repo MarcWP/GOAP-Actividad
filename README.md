@@ -16,8 +16,8 @@ Proyecto de inteligencia artificial mediante GOAP para la asignatura Inteligenci
 
 * Entidad Remolque (entidades verdes): Su objetivo es esperar a que los coches se queden sin gasolina para recogerlos y trasladarlos a la gasolinera, donde regeneran el gas. Sus acciones son:
   * GoToCar: se traslada hasta el coche sin gasolina, que en estos momentos estaría quieto.
-  * BringBrokenCarToGasStation: llevar el coche rescatado a la estación de servicio para que recupere gasolina.
-  * ReturnToRepairShop: volver al puesto de guardia
+  * BringBrokenCarToGasStation: llevar el coche rescatado a la estación de servicio para que recupere gasolina. Esta acción no representa un gasto de dinero, pero toma bastante tiempo si el coche está muy lejos de la grua.
+  * ReturnToRepairShop: volver al puesto de guardia.
 
 * Entidad Coche de policia (entidades azules): Su objetivo es esperar a los coches que pierden la paciencia y se pasan del límite de velocidad. Luego los detiene y los traslada a comisaría, donde pagan multa y pasan condena. Las celdas de prisión funcionan mediante inventario. La celda objetivo se traslada y comunica a las entidades y si no hay ninguna disponible, no será posible realizar la acción.
   * GetSpeedingCar: se traslada hasta el coche que se ha pasado del límite de velocidad, que en estos momentos se está moviendo.
