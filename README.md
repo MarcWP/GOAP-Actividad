@@ -71,5 +71,3 @@ Artificial intelligence project using GOAP for the subject Artificial Intelligen
 
 ### About the game
 The scene consists of 4 main elements: the city, the entities, the balance panel and the upgrade panel. The entities move around the city and perform their actions. Some of these actions involve costs or income, which change the total balance of the game (bottom left panel in the scene). We are eligible for upgrades via the upgrades panel (top right panel in the scene). To be able to buy upgrades our balance must be higher than the cost listed for each upgrade.
-
-Translated with www.DeepL.com/Translator (free version)
